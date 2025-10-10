@@ -27,6 +27,13 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* Historia */
 main {
     display: flex;
@@ -45,7 +52,8 @@ main {
     border: 1px solid gray;
     border-radius: 20px;
     box-sizing: border-box;
-    margin: 1vw;
+    margin: 5%;
+    padding: 1vw;
 }
 
 #historia p {

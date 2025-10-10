@@ -128,3 +128,8 @@ h2, h4 {
   box-shadow: 0 0 0 3px rgba(43,108,176,0.12);
   border-color: #2b6cb0;
 }
+
+footer{
+    padding: 2% 5%;
+    text-decoration: underline;
+}

@@ -37,6 +37,7 @@ main {
     align-items: center;
     width: 80%;
     background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 #historia {

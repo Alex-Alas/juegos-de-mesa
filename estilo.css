@@ -1,0 +1,21 @@
+#versiones{
+    margin: 5%;
+    padding: 0 2%;
+    border: grey 1px solid;
+    border-radius: 20px;
+}
+
+/*#versiones article div{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+#versiones article div img{
+    width: 100%;
+}
+
+#versiones article div p{
+    padding: 2%;
+    text-align: center;
+}
+

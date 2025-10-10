@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de Mesa: UNO</title>
-	<link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
 
     <header>
-        <img src="https://tse1.mm.bing.net/th/id/OIP.trZexhICCx7_GZnr5342xgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" id="logo">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.trZexhICCx7_GZnr5342xgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+            id="logo">
         <nav id="menu">
-        <ul>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#form">Contacto</a></li>
-            <li><a href="#versiones">Versiones Populares</a></li>
-        </ul>
-    </nav>
-        <h1>Todo Sobre el Juego de Mesa UNO</h1>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#form">Contacto</a></li>
+                <li><a href="#versiones">Versiones Populares</a></li>
+            </ul>
+        </nav>
+        <h1>História y Versiones del Juego de Mesa UNO</h1>
 
     </header>
 
@@ -27,40 +30,67 @@
         <section id="historia">
             <h2>Historia de UNO</h2>
             <p>
-                UNO fue creado en 1971 por Merle Robbins en Reading, Ohio. La idea surgió después de una discusión con su hijo sobre las reglas del juego de cartas Crazy Eights. Para resolver la disputa, Merle escribió las reglas en un juego de cartas en blanco y pronto se dio cuenta de que había creado algo divertido y único.
+                UNO fue creado en 1971 por Merle Robbins en Reading, Ohio. La idea surgió después de una discusión con
+                su hijo sobre las reglas del juego de cartas Crazy Eights. Para resolver la disputa, Merle escribió las
+                reglas en un juego de cartas en blanco y pronto se dio cuenta de que había creado algo divertido y
+                único.
             </p>
             <p>
-                Inicialmente, Robbins y su familia invirtieron $8,000 para crear 5,000 copias del juego, que vendían en su barbería local. El juego fue un éxito y, en 1972, vendió los derechos a un amigo, quien luego los vendió a International Games, que fue adquirida por Mattel en 1992. Desde entonces, UNO se ha convertido en uno de los juegos de cartas más vendidos y reconocidos del mundo.
+                Inicialmente, Robbins y su familia invirtieron $8,000 para crear 5,000 copias del juego, que vendían en
+                su barbería local. El juego fue un éxito y, en 1972, vendió los derechos a un amigo, quien luego los
+                vendió a International Games, que fue adquirida por Mattel en 1992. Desde entonces, UNO se ha convertido
+                en uno de los juegos de cartas más vendidos y reconocidos del mundo.
             </p>
         </section>
 
         <section id="versiones">
             <h2>Algunas variantes del juego original</h2>
-            <p>A lo largo de los años, han surgido muchas variantes del juego clásico. Aquí hay algunas de las más populares:</p>
+            <p>A lo largo de los años, han surgido muchas variantes del juego clásico. Aquí hay algunas de las más
+                populares:</p>
 
             <article>
                 <h4>UNO Flip!</h4>
-	            <div>
-		            <img src="img/uno_flip.webp" alt="UNO">
-		            <p>Esta versión agrega un giro interesante con cartas de doble cara. Una baraja "clara" y una "oscura" con penalizaciones mucho más duras. Una carta "Flip" especial cambia el lado que se está jugando.</p>
-	            </div>
+                <div>
+                    <img src="img/uno_flip.webp" alt="UNO">
+                    <p>Esta versión agrega un giro interesante con cartas de doble cara. Una baraja "clara" y una
+                        "oscura" con penalizaciones mucho más duras. Una carta "Flip" especial cambia el lado que se
+                        está jugando.</p>
+                </div>
             </article>
 
             <article>
                 <h4>UNO Dare</h4>
-	            <div>
-		            <img src="img/uno_dare.jpg" alt="UNO dare">
-		            <p>UNO Dare incluye cartas de desafío que obligan a los jugadores a realizar divertidos y atrevidos retos. Si no quieres hacer el reto, ¡debes robar cartas!</p>
-	            </div>
+                <div>
+                    <img src="img/uno_dare.jpg" alt="UNO dare">
+                    <p>UNO Dare incluye cartas de desafío que obligan a los jugadores a realizar divertidos y atrevidos
+                        retos. Si no quieres hacer el reto, ¡debes robar cartas!</p>
+                </div>
             </article>
 
             <article>
                 <h4>UNO All Wild</h4>
-	            <div>
-		            <img src="img/uno_all_wild.jpg" alt="UNO all wild">
-		            <p>En esta versión, cada carta es un comodín. Esto acelera el juego y elimina la necesidad de hacer coincidir colores o números, cambiando la estrategia por completo.</p>
-	            </div>
+                <div>
+                    <img src="img/uno_all_wild.jpg" alt="UNO all wild">
+                    <p>En esta versión, cada carta es un comodín. Esto acelera el juego y elimina la necesidad de hacer
+                        coincidir colores o números, cambiando la estrategia por completo.</p>
+                </div>
             </article>
+        </section>
+
+        <section id="form">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto" action="#" method="post" novalidate>
+                <label id="etiqueta-nombre" for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+
+                <label id="etiqueta-correo" for="correo">Correo</label>
+                <input id="correo" name="correo" type="email" placeholder="correo@ejemplo.com" required>
+
+                <label id="etiqueta-mensaje" for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tu mensaje..." required></textarea>
+
+                <button id="boton-enviar" type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
@@ -69,4 +99,5 @@
     </footer>
 
 </body>
+
 </html>

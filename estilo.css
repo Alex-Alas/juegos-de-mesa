@@ -1,14 +1,9 @@
 #versiones{
     margin: 5%;
-    padding: 0 2%;
+    padding: 2%;
     border: grey 1px solid;
     border-radius: 20px;
 }
-
-/*#versiones article div{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
 
 #versiones article div img{
     width: 100%;
@@ -27,6 +22,13 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* Historia */
 main {
     display: flex;
@@ -35,6 +37,7 @@ main {
     align-items: center;
     width: 80%;
     background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 #historia {
@@ -45,15 +48,16 @@ main {
     border: 1px solid gray;
     border-radius: 20px;
     box-sizing: border-box;
-    margin: 1vw;
+    margin: 5%;
+    padding: 1vw;
 }
 
-#historia p {
+p {
     font-size: 1.2rem;
     text-align: justify;
 }
 
-#historia h2 {
+h2, h4 {
     font-size: 1.5rem;
     text-align: center;
 }
@@ -108,4 +112,72 @@ header ul a{
 header ul a:hover{
     color: brown;
 
+
+
+/*estilo form*/
+#form {
+  margin: 16px 0;
+  padding: 17px;
+  max-width: 420px;
+  box-sizing: border-box;
+}
+
+#formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#etiqueta-nombre,
+#etiqueta-correo,
+#etiqueta-mensaje {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  padding: 10px;
+}
+
+#nombre,
+#correo,
+#mensaje {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#mensaje {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Botón */
+#boton-enviar {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background-color: #2b6cb0;
+  color: white;
+  align-self: flex-start; 
+  margin-top: 20px;
+}
+
+
+#nombre:focus,
+#correo:focus,
+#mensaje:focus {
+  box-shadow: 0 0 0 3px rgba(43,108,176,0.12);
+  border-color: #2b6cb0;
+}
+
+footer{
+    padding: 2% 5%;
+    text-decoration: underline;
 }

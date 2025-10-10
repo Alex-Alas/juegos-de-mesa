@@ -64,3 +64,67 @@ h2, h4 {
 
 
 /*estilo Menu*/
+
+
+/*estilo form*/
+#form {
+  margin: 16px 0;
+  padding: 17px;
+  max-width: 420px;
+  box-sizing: border-box;
+}
+
+#formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#etiqueta-nombre,
+#etiqueta-correo,
+#etiqueta-mensaje {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  padding: 10px;
+}
+
+#nombre,
+#correo,
+#mensaje {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#mensaje {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Botón */
+#boton-enviar {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background-color: #2b6cb0;
+  color: white;
+  align-self: flex-start; 
+  margin-top: 20px;
+}
+
+
+#nombre:focus,
+#correo:focus,
+#mensaje:focus {
+  box-shadow: 0 0 0 3px rgba(43,108,176,0.12);
+  border-color: #2b6cb0;
+}
